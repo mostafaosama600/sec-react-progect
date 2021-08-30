@@ -1,0 +1,38 @@
+main {
+  background-color: #050a30;
+}
+.text {
+  text-align: start;
+}
+
+img {
+  width: 100%;
+  box-shadow: -15px 10px 15px orange;
+  border-radius: 4px;
+
+}
+.content-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 999px) {
+  .content-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-btn {
+  border: 1px orange solid !important;
+  background-color: transparent;
+  padding: 10px;
+  color: orange;
+  border-radius: 25px;
+  transition: all 0.3s linear;
+}
+
+.about-btn:hover {
+  color: #000;
+  font-weight: 400;
+  background-color: orange;
+}

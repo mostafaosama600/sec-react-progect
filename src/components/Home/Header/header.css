@@ -1,0 +1,12 @@
+main {
+  color: white;
+  text-transform: capitalize;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  height: 450px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.722);
+}
